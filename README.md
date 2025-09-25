@@ -38,8 +38,8 @@ This tutorial outlines the prerequisites and installation of an Azure virtual ma
 
 </p>
 <p>
-Step 1: Go to https://portal.azure.com and sign in with your Azure credentials. 
-Step 2: Navigate to Virtual Machines.
+^Step 1: Go to https://portal.azure.com and sign in with your Azure credentials. 
+^Step 2: Navigate to Virtual Machines.
   
 From the Azure services section on the home page, click Virtual machines.
 </p>
@@ -47,7 +47,7 @@ From the Azure services section on the home page, click Virtual machines.
 
 <p> <img width="1890" height="297" alt="Sc2" src="https://github.com/user-attachments/assets/88e3eb1e-3fb8-48ae-863a-99dfeb6fcdc4" </p>
 <p>
-Step 3: Create a New Virtual Machine.
+^Step 3: Create a New Virtual Machine.
   
 On the Virtual Machines page, click Create at the top  
 </p>
@@ -57,7 +57,7 @@ On the Virtual Machines page, click Create at the top
 <img width="772" height="855" alt="Sc3" src="https://github.com/user-attachments/assets/5885f7fb-8b55-49dd-a174-22220eedeed5" />
   </p>
   <p>
-Step 4: Configure Basics.
+^Step 4: Configure Basics.
     
 Select your subscription and resource group.
 Enter a name for your virtual machine (e.g., windows-vm-demo).
@@ -65,10 +65,10 @@ Choose your region (e.g., East US).
   </p>
 <br />
 <p>
-<img width="773" height="476" alt="Sc5" src="https://github.com/user-attachments/assets/15a7ff0f-ee04-41ab-a4fe-6655321fd33f" />
+<img width="781" height="655" alt="Sc4" src="https://github.com/user-attachments/assets/26815b64-b97c-4792-8e4e-5bd350915604" />
  </p>
   <p>
- Step 5: Choose Image, Size, and Credentials.
+ ^Step 5: Choose Image, Size, and Credentials.
 
 Under Image, select Windows 10 Pro.
 Choose a VM size with at least 2 vCPUs for performance.
@@ -76,10 +76,10 @@ Enter a username and password for the administrator account.
   </p>
 <br />
 <p>
-<img width="773" height="641" alt="Sc5" src="https://github.com/user-attachments/assets/e7df2b77-4987-4785-95ce-ae58e2f75a3f" />
-  </p>
+<img width="773" height="476" alt="Sc5" src="https://github.com/user-attachments/assets/fc201638-ff65-4811-9471-3fb010dea4f6" />
+</p>
   <p>
-Step 6: Licensing.
+^Step 6: Licensing.
 
 Scroll to the bottom of the page. Under Licensing, check the box:
 “I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.”
@@ -87,6 +87,53 @@ Click Next: Disks.
   </p>
   <br />
   <p>
-<img width="839" height="874" alt="Sc7" src="https://github.com/user-attachments/assets/e14e0ee2-847b-4bab-a41d-cd09806750ea" />
+<img width="799" height="826" alt="Sc6" src="https://github.com/user-attachments/assets/c06a9f7b-5e71-45eb-86bb-c4867e0a3a14" />
  </p>
+  <p>
+^Step 7: Configure Networking.
+
+Leave the Disks section at default. Move to Networking and under Virtual network, click Create new. 
+  </p>
+<br />
+
+<p>
+ <img width="839" height="874" alt="Sc7" src="https://github.com/user-attachments/assets/250929f3-cda3-4800-b400-caf90d3727cc" />
+</p>
+<p>
+^Step 8: Create Virtual Network.
+
+In the pop-up, rename the network (e.g., project1-vnet).
+Leave the rest of the defaults as-is, then click OK. 
+</p>
+<br />
+
+<p>
+ <img width="849" height="864" alt="Sc8" src="https://github.com/user-attachments/assets/c6d0d660-067e-4eca-85a4-aca65d15f557" />
+</p>
+<p>
+ ^Step 9: Review and Create.
+
+Click Review + create. Double-check your settings, then click Create at the bottom.
+</p>
+<br />
+
+<p>
+ <img width="1232" height="544" alt="Sc9" src="https://github.com/user-attachments/assets/0ca765d5-4928-4790-8778-9f56273fd5ef" /> 
+</p>
+<p>
+^Step 10: Deployment Complete.
+
+Wait for deployment to finish. When it shows Your deployment is complete, click Go to resource.  
+</p>
+<br />
+
+<p>
+<img width="1898" height="467" alt="Sc10" src="https://github.com/user-attachments/assets/900f9019-021c-4c6e-94a6-c20aad74f342" />
+  </p>
+  <p>
+ ^Step 11: Verify Your VM.
+
+Search for Virtual machines again in the top search bar. Your new VM (e.g., windows-vm-demo) should now appear in the list with a Running status.  
+  </p>
+  <br />
   
