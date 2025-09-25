@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of an Azure virtual ma
 <p>
 
 <h2>Log into the Azure Portal</h2>
-Step 1: Go to https://portal.azure.com and sign in with your Azure credentials.</h2>
+Step 1: Go to https://portal.azure.com and sign in with your Azure credentials.
 
 <img width="1100" height="213" alt="sc1" src="https://github.com/user-attachments/assets/020eda54-a535-4830-b69a-82ace6935679" />
 
@@ -65,8 +65,8 @@ Choose your region (e.g., East US).
   </p>
 <br />
 <p>
-<img width="781" height="655" alt="Sc4" src="https://github.com/user-attachments/assets/27f3bba8-a84d-4aca-9edc-384fb935b7d2" />
-  </p>
+<img width="773" height="476" alt="Sc5" src="https://github.com/user-attachments/assets/15a7ff0f-ee04-41ab-a4fe-6655321fd33f" />
+ </p>
   <p>
  Step 5: Choose Image, Size, and Credentials.
 
