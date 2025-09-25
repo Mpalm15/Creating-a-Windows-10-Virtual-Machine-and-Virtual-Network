@@ -1,4 +1,4 @@
-<h2>Creating-a-Windows-10-Virtual-Machine-and-Virtual-Network<h2>
+<h2>Creating a Windows 10 Virtual Machine and Virtual Network<h2>
 <p align="center">
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
