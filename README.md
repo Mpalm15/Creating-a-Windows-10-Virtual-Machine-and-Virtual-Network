@@ -40,6 +40,7 @@ Step 1: Go to https://portal.azure.com and sign in with your Azure credentials.<
 </p>
 <p>
 Step 2: Navigate to Virtual Machines.
+  
 From the Azure services section on the home page, click Virtual machines.
 </p>
 <br />
@@ -47,7 +48,45 @@ From the Azure services section on the home page, click Virtual machines.
 <p> <img width="1890" height="297" alt="Sc2" src="https://github.com/user-attachments/assets/88e3eb1e-3fb8-48ae-863a-99dfeb6fcdc4" </p>
 <p>
 Step 3: Create a New Virtual Machine.
+  
 On the Virtual Machines page, click Create at the top  
 </p>
 <br />
 
+<p>
+<img width="772" height="855" alt="Sc3" src="https://github.com/user-attachments/assets/5885f7fb-8b55-49dd-a174-22220eedeed5" />
+  </p>
+  <p>
+Step 4: Configure Basics.
+    
+Select your subscription and resource group.
+Enter a name for your virtual machine (e.g., windows-vm-demo).
+Choose your region (e.g., East US). 
+  </p>
+<br />
+<p>
+<img width="781" height="655" alt="Sc4" src="https://github.com/user-attachments/assets/27f3bba8-a84d-4aca-9edc-384fb935b7d2" />
+  </p>
+  <p>
+ Step 5: Choose Image, Size, and Credentials.
+
+Under Image, select Windows 10 Pro.
+Choose a VM size with at least 2 vCPUs for performance.
+Enter a username and password for the administrator account.
+  </p>
+<br />
+<p>
+<img width="773" height="641" alt="Sc5" src="https://github.com/user-attachments/assets/e7df2b77-4987-4785-95ce-ae58e2f75a3f" />
+  </p>
+  <p>
+Step 6: Licensing.
+
+Scroll to the bottom of the page. Under Licensing, check the box:
+“I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.”
+Click Next: Disks.   
+  </p>
+  <br />
+  <p>
+<img width="839" height="874" alt="Sc7" src="https://github.com/user-attachments/assets/e14e0ee2-847b-4bab-a41d-cd09806750ea" />
+ </p>
+  
