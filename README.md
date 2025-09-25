@@ -33,20 +33,20 @@ This tutorial outlines the prerequisites and installation of an Azure virtual ma
 <p>
 
 <h2>Log into the Azure Portal</h2>
-Go to https://portal.azure.com and sign in with your Azure credentials.</h2>
+Step 1: Go to https://portal.azure.com and sign in with your Azure credentials.</h2>
 
 <img width="1100" height="213" alt="sc1" src="https://github.com/user-attachments/assets/020eda54-a535-4830-b69a-82ace6935679" />
 
 </p>
 <p>
-Navigate to Virtual Machines.
+Step 2: Navigate to Virtual Machines.
 From the Azure services section on the home page, click Virtual machines.
 </p>
 <br />
 
 <p> <img width="1890" height="297" alt="Sc2" src="https://github.com/user-attachments/assets/88e3eb1e-3fb8-48ae-863a-99dfeb6fcdc4" </p>
 <p>
-Create a New Virtual Machine.
+Step 3: Create a New Virtual Machine.
 On the Virtual Machines page, click Create at the top  
 </p>
 <br />
